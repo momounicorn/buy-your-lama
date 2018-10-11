@@ -39,7 +39,7 @@ color: hotpink;
 font-weight: bold;
 }
 
-ul,li{
+ul.indent,li.indent{
 	margin-left: 180px;
 }
 p.c {
