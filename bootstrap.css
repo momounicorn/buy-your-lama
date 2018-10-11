@@ -34,7 +34,7 @@ color: gold;
   background-clip: text;
 }
 
-.pink,span {
+.pink , span {
 color: hotpink;
 font-weight: bold;
 }
@@ -56,7 +56,7 @@ h1 {
 	font-size: 500%;
 }
 
-a:link {
+a:link , a , a:visited {
    color:inherit;
 	font-family: inherit;
 	text-decoration: inherit;
