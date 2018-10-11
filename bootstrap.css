@@ -34,6 +34,15 @@ color: gold;
   background-clip: text;
 }
 
-.pink {
-color: pink;
+.pink,span {
+color: hotpink;
+font-weight: bold;
+}
+
+ul,li{
+	margin-left: 180px;
+}
+p.c {
+    text-align:justify;
+	width: 50%;
 }
