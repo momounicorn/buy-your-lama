@@ -21,11 +21,6 @@
 color: grey;
 }
 
-.dore
-{
-color: gold;
-}
-
 .rainbow {
   background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
   background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
@@ -34,14 +29,39 @@ color: gold;
   background-clip: text;
 }
 
-.pink , span {
+ul {
+	list-style: none;
+}
+
+/* polices en pink */
+
+.pink {
 color: hotpink;
 font-weight: bold;
 }
 
-ul.indent,li.indent {
-	margin-left: 180px;
+span.indent_pink {
+	margin-left: 10px;
+	color: hotpink;
+	font-weight: bold;
 }
+
+/* -------------- */
+
+/* polices en dore */
+
+.dore {
+color: gold;
+font-weight: bold;
+}
+
+span.indent_dore {
+	margin-left: 10px;
+	color: gold;
+	font-weight: bold;
+}
+
+/* ----------------- */
 
 p.c {
     text-align:justify;
