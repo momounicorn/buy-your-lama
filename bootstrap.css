@@ -81,6 +81,7 @@ a:link , a , a:visited {
 	font-family: inherit;
 	text-decoration: inherit;
 }
+
 table {
     font-family: inherit;
     border-collapse: collapse;
@@ -88,13 +89,13 @@ table {
 }
 
 td, th {
-    border: 1px solid #dddddd;
+    border: none;
     text-align: left;
     padding: 8px;
 }
 
 tr:nth-child(even) {
-    background-color: #dddddd;
+    background-color: white;
 }
 
 .commentaire{
@@ -103,4 +104,10 @@ tr:nth-child(even) {
 
 th > h3 {
 	text-align: center;
+}
+
+table.footeur {
+    font-family: inherit;
+    border-collapse: collapse;
+    width: 100%;
 }
