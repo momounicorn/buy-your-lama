@@ -16,9 +16,9 @@
     padding: 0 3px;
 }
 
-.argent
+.violet
 {
-color: grey;
+color: purple;
 }
 
 .rainbow {
@@ -99,4 +99,8 @@ tr:nth-child(even) {
 
 .commentaire{
 	text-indent: 100px;
+}
+
+th > h3 {
+	text-align: center;
 }
