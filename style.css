@@ -109,6 +109,11 @@ tr.gold ul {
 
 }
 
+.logo{
+	width: 10%;
+	height: 10%;
+}
+
 .reseauxsociaux:hover, .partenaires a:hover {
 	font-size: 110%;
     font-weight: bold;
