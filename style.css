@@ -1,6 +1,9 @@
 /* Paramètres de disposition et de fond */
-body {
+* {
     box-sizing: border-box; /* permet d'avoir des éléments organisés en boites (pour avoir les boites à droite par exemple) */
+}
+
+body {
     font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
     padding: 10px;
     background-color: pink;
