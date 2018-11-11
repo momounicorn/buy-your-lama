@@ -1,7 +1,7 @@
 body {
     font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
     padding: 10px;
-    background-color: f6c6f0;
+    background-color: #f6c6f0;
 }
 
 /* Le header arc-en-ciel */
@@ -9,7 +9,7 @@ body {
     padding: 30px;
     text-align: center;
 	background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) ); /*couleur arc-en-ciel */
-	color: f6c6f0;
+	color: #f6c6f0;
 }
 
 .header h1 {
@@ -31,14 +31,14 @@ body {
 
 .barrenavigation a {
     float: left; /* position des onglets sur la barre */
-    color: pink;
+    color: #f6c6f0;
     text-align: center;
     padding: 10px 20px; /* taille des onglets */
     text-decoration: none; /* empêche les liens des onglets d'être soulignés */
 }
 
 .barrenavigation a:hover { /* style des onglets quand la souris est dessus */
-    background-color: f6c6f0;
+    background-color: #f6c6f0;
     color: black;
 }
 
